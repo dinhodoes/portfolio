@@ -1,0 +1,20 @@
+/*
+ *= require animate
+ *= require_tree .
+ *= require_self
+ */
+ 
+@import "bootstrap-sprockets";
+@import 'bootstrap';
+@import 'animate';
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:600italic);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,300italic,400italic);
+
+.navbar-nav > li > a {
+	padding-top: 5px !important; padding-bottom:5px !important;
+}
+
+.navbar {
+	min-height: 30px !important
+}
+
